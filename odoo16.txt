@@ -1,0 +1,6 @@
+hostname :localhost
+port : 5432
+username : openpg
+password : openpgpwd
+
+ghtg-i4dr-wtz5
