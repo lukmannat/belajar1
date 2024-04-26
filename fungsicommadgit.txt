@@ -1,0 +1,39 @@
+git --version
+
+cd /f/belajarprogramodoo
+memanggil folder direktori
+
+git init 
+untuk menginisialisasi repositori Git baru di dalam sebuah direktori.
+
+git status 
+memberikan informasi tentang status perubahan yang belum commit
+
+git add .
+menambah perubahan ke direktori untuk disiapkan dalam commit berikutnya
+
+git commit
+membuat perintah baru dan menyimpan perubahan secara permanen
+
+git commit -m "file1"
+menyederhanakan proses pembuatan commit dengan mengizinkan Anda menulis pesan commit langsung dalam baris perintah
+
+git config --global user.email "sirlukman98@gmail.com"
+untuk mengonfigurasi alamat email global yang terkait dengan akun Git Anda. 
+Fungsi utamanya adalah untuk menentukan alamat email yang akan digunakan sebagai identitas global ketika Anda membuat commit
+
+git config --global user.name "lukman"
+digunakan untuk mengonfigurasi nama pengguna global yang terkait dengan akun Git Anda. 
+Ini adalah nama yang akan digunakan sebagai identitas global ketika Anda membuat commit
+
+git remote add origin https://github.com/lukmannat/belajar.git
+menambahkan remote repositori ke repositori lokal
+
+git branch -M main
+untuk membuat, menampilkan, atau menghapus branch dalam repositori Git
+
+git push -u origin main
+tidak hanya melakukan push perubahan ke remote repository, tetapi juga mengatur tracking antara branch lokal main dan 
+branch main di remote repository origin, sehingga memudahkan untuk melakukan push dan pull di masa mendatang.
+
+
